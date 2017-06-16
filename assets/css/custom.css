@@ -4,36 +4,151 @@ body{
 }
 
 #header-fun {
-		position: relative;
-		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header2.jpg");
-		background-size: auto, cover;
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
-		text-align: center;
-		color: #fff;
-	}
+	position: relative;
+	margin: 0;
+	background-image: url("images/overlay.png"), url("../../images/header2.jpg");
+	background-size: auto, cover;
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	padding: 14em 0 14em 0;
+	text-align: center;
+	color: #fff;
+}
 
-		#header-fun header h1 {
-			font-size: 2.25em;
-			line-height: 1.25em;
-			margin-bottom: 0;
-		}
+#header-fun header h1 {
+	font-size: 2.25em;
+	line-height: 1.25em;
+	margin-bottom: 0;
+}
 
-		#header-fun header p {
-			margin-top: 1.25em;
-			font-weight: 100;
-			padding: 0;
-			font-size: 1.25em;
-			line-height: 1.5em;
-			text-align: center;
-		}
+#header-fun header p {
+	margin-top: 1.25em;
+	font-weight: 100;
+	padding: 0;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+}
 
-		#header-fun footer {
-			padding-top: 1.5em;
-		}
+#header-fun footer {
+	padding-top: 1.5em;
+}
 
-		.full-width{
-			width: 100%;
-		}
+#header-sign-up {
+	position: relative;
+	margin: 0;
+	background-image: url("images/overlay.png"), url("../../images/phone-pic.jpg");
+	background-size: auto, cover;
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	padding: 14em 0 14em 0;
+	text-align: center;
+	color: #fff;
+}
+
+#header-sign-up header h1 {
+	font-size: 2.25em;
+	line-height: 1.25em;
+	margin-bottom: 0;
+}
+
+#header-sign-up header p {
+	margin-top: 1.25em;
+	font-weight: 100;
+	padding: 0;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#header-sign-up footer {
+	padding-top: 1.5em;
+}
+
+.full-width{
+	width: 100%;
+}
+
+#header header h1 {
+	font-size: 2.25em;
+	line-height: 1.25em;
+	margin-bottom: 0;
+	color: white;
+}
+
+
+.main > header h2 {
+	font-size: 2.25em;
+	font-weight: 100;
+	margin-bottom: 0;
+	color: #16587E;
+}
+	.main > header p {
+	margin: 2em 0 0 0;
+	padding: 0;
+	color: #16587E;
+	text-align: center;
+}
+
+.main > .content {
+	padding: 6em 0 6em 0;
+}
+
+.main > .content h3 {
+	font-size: 1.5em;
+	color: #16587E;
+}
+
+.main > .content.style4 {
+	padding-top: 0;
+	background: #fff;
+					color: #16587E;
+
+}
+.main > .content.dark {
+	background: #E0CCEF;
+		color: #16587E;
+}
+
+
+.feature-icon:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0.65em;
+	width: 1px;
+	height: 4.35em;
+	background: #666;
+	margin-left: -0.5px;
+						color: #16587E;
+
+}
+
+.dark .feature-icon .icon {
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+	color: #fff;
+						color: #16587E;
+
+}
+
+.dark .feature-icon:before, .dark .feature-icon:after {
+	background: rgba(255, 255, 255, 0.5);
+	color: #16587E;
+}
+
+.main > .content h3 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.main > .content h3 {
+	font-size: 1.5em;
+	color: #16587E;
+	text-align: center;
+	position: absolute;
+
+}
+
+
+
